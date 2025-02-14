@@ -1,0 +1,19 @@
+<div id="back-button">
+  <button id="back-to-top">Top &uarr;</button>
+</div>
+
+<footer class="site-footer h-card">
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        © Charlie Quebec Sierra {{  "now" | date: '%Y' }}
+        {% if site.email -%}
+          <p><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        {%- endif %}
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/scroll_to_top.js"></script>

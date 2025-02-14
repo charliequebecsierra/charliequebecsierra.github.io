@@ -1,0 +1,374 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+/*--------------------------------------------------------------
+Overrides to the default Minima Theme Styling
+--------------------------------------------------------------*/
+
+a:visited {
+  color: #111;
+}
+
+button {
+  background-color: #fbf8ec;
+  border: 2px solid lighten($text-color, 40%);
+  border-radius: 4px;
+}
+
+
+
+/*--------------------------------------------------------------
+Header
+--------------------------------------------------------------*/
+
+.site-header {
+  background-image: url("../img/site-header-background.png");
+  background-color: #fbf8ec;
+  color: #2E4453;
+  border-bottom: 5px solid #424242;
+}
+
+.site-logo {
+  width: 40%;
+  margin: 30px 30px 20px 50px;
+  vertical-align: left;
+  border: 5px solid #ffc62a;
+}
+
+.site-nav {
+  padding: 30px 50px 10px 30px;
+  a {
+    text-decoration-color: #ffc62a;
+    text-decoration-thickness: 5px;
+    font-size: 20px;
+    padding: 5px;
+  }
+}
+
+/*--------------------------------------------------------------
+Footer
+--------------------------------------------------------------*/
+
+#back-to-top {
+  float: right;
+  width: 10%;
+  padding: 5px;
+  margin: 10px;  
+  color: lighten($text-color, 40%);
+  text-decoration: none;
+}
+
+.footer-col {
+  float: none;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+Index
+--------------------------------------------------------------*/
+
+.portfolio_tags {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  row-gap: 75px;
+  padding: 20px;
+}
+
+.tag {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px;
+  &:hover {
+    text-decoration-color: #ffc62a;
+    text-decoration-thickness: 5px;
+  }
+}
+
+/*--------------------------------------------------------------
+Home Layout
+--------------------------------------------------------------*/
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+.hero-content {
+  margin: 0 auto;
+  display: table;
+  width: 90%;
+  padding: 4em;
+  .image {
+    padding-bottom: 20px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  h3 {
+    padding: 2px;
+    margin-bottom: 0px;
+  }
+  .heading, .subhead {
+    margin: 0;
+  }
+  .hero-buttons {
+    margin: 0 auto;
+    display: table;
+  }
+  .svg-icon {
+    padding-right: 0px;
+  }
+}
+
+.icon {
+  width: 16px;
+  height: auto;
+  padding: 5px;
+}
+
+.main-content {
+  margin: 0 auto;
+  display: table;
+  width: 90%;
+  padding: 4em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button.btn, input.btn {
+  padding: 15px;
+  margin: 2em 0.5em;
+  border: solid 1px #111;
+  border-radius: 50%;
+  color: #2E4453;
+  background-color: #ffc62a;
+  font-weight: 600;
+  &:hover, &.btn-default:hover {
+    background-color: #ffc62a;
+    border: solid 1px #ffc62a;
+  }
+}
+
+/*--------------------------------------------------------------
+Image Galleries
+--------------------------------------------------------------*/
+
+.page_title {
+  font-weight: 600;
+  color: #111;
+  margin: 3px;
+  padding: 3px;
+}
+
+.portfolio_gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
+  align-items: center;
+  row-gap: 75px;
+  padding: 20px;
+}
+
+.portfolio_item {
+  width: 200px;
+  height: 200px;
+  margin: 4px;
+  padding: 4px;
+}
+
+.gallery_card {
+  background-color: #fbf8ec;
+  border: solid 2px #111;
+  border-radius: 4px;
+  box-shadow: 5px 5px 0px #111;
+  &:hover, &.btn-default:hover {
+    background-color: #ffc62a;
+    border: solid 1px #ffc62a;
+  }
+}
+
+.gallery_card_bottom {
+  display: grid;
+  align-items: center;
+  height: 50px;
+  background-color: #fbf8ec;
+  border-top: solid 2px #111;
+  font-size: 14px;
+  text-align: center;
+  a {
+    text-decoration: none;
+  }
+  &:hover {
+    border-top: solid 1px #ffc62a;
+  }
+}
+
+img.thumbnail {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: scale-down;
+}
+
+.page_gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
+  align-items: center;
+  row-gap: 75px;
+  padding: 20px;
+  background-color: #111;
+  border-radius: 30px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page_gallery_item {
+  width: 200px;
+  height: 200px;
+  margin: 4px;
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page_card {
+  width: 200px;
+  height: 200px;
+  background-color: #fbf8ec;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  &:hover, &.btn-default:hover {
+    background-color: #ffc62a;
+    border: solid 2px #ffc62a;
+  }
+}
+
+img.page_thumbnail {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/*--------------------------------------------------------------
+Portfolio Pages
+--------------------------------------------------------------*/
+
+.post-title {
+  font-size: 28;
+  text-align: center;
+}
+
+.back_link {
+  color: #111;
+}
+
+.flip {
+  transform: scaleX(-1);
+}
+
+.header-icon {
+  width: 25px;
+  height: auto;
+  padding: 5px;
+}
+
+.post-content {
+  .content{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h3 {
+    margin-top: 20px;
+    color: #ffc62a;
+    border: 2px solid #111;
+    border-radius: 4px;
+    padding: 5px;
+    padding-left: 20px;
+  }
+  h4, p, ul, li {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*--------------------------------------------------------------
+About Page
+--------------------------------------------------------------*/
+
+.about_image {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 5px solid #ffc62a;
+  border-radius: 25% 10%;
+}
+
+/*--------------------------------------------------------------
+Contact Page
+--------------------------------------------------------------*/
+
+.contact_cta {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+  
+  input, textarea {
+    font-family: sans-serif;
+     border:0; outline:0;
+     padding: 1em;
+     border-radius: (8px);
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     box-shadow: (0 1px 1px rgba(#ffc62a, 0.1));
+     resize: none;
+    
+    &:focus {
+       box-shadow: (0 0px 2px rgba(#ffc62a, 1));
+    }
+  }
+  
+  #input-submit {
+     color: white;
+     background: #111;
+     align: center;
+     cursor: pointer;
+    
+    &:hover {
+       box-shadow: (0 1px 1px 1px rgba(#aaa, 0.6)); 
+    }
+  }
+  
+  textarea {
+      height: 126px;
+  }
+}
