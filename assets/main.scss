@@ -4,6 +4,9 @@
 
 @import "minima";
 
+// Bootstrap icons
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
 /*--------------------------------------------------------------
 Overrides to the default Minima Theme Styling
 --------------------------------------------------------------*/
@@ -178,11 +181,15 @@ Image Galleries
 
 .portfolio_gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: auto auto auto;
   justify-content: center;
   align-items: center;
-  row-gap: 75px;
+  grid-gap: 80px;
   padding: 20px;
+}
+
+.zine_gallery {
+  grid-template-columns: auto auto;
 }
 
 .portfolio_item {
@@ -328,47 +335,51 @@ About Page
 }
 
 /*--------------------------------------------------------------
-Contact Page
+Buy Page
 --------------------------------------------------------------*/
 
-.contact_cta {
-  text-align: center;
-  padding-bottom: 10px;
+.content {
+  a {
+    text-decoration: underline;
+    text-decoration-color: #ffc62a;
+  }
 }
 
-form {
-   max-width: 600px;
-   text-align: center;
-   margin: 20px auto;
-  
-  input, textarea {
-    font-family: sans-serif;
-     border:0; outline:0;
-     padding: 1em;
-     border-radius: (8px);
-     display: block;
-     width: 100%;
-     margin-top: 1em;
-     box-shadow: (0 1px 1px rgba(#ffc62a, 0.1));
-     resize: none;
-    
-    &:focus {
-       box-shadow: (0 0px 2px rgba(#ffc62a, 1));
+/*--------------------------------------------------------------
+Photobooth Page
+--------------------------------------------------------------*/
+
+.photobooth-page{
+  h1 {
+    color: #ffc62a;
+  }
+  h3{
+    color: #111;
+  }
+  .content {
+    a {
+      text-decoration: underline;
+      text-decoration-color: #ffc62a;
     }
   }
-  
-  #input-submit {
-     color: white;
-     background: #111;
-     align: center;
-     cursor: pointer;
-    
-    &:hover {
-       box-shadow: (0 1px 1px 1px rgba(#aaa, 0.6)); 
-    }
+
+  #airtable-iframe {
+    padding: 1%;
   }
-  
-  textarea {
-      height: 126px;
-  }
+}
+
+a[href^="#fn:"] {
+    color: #111;
+    font-size: 0.8em;
+    text-decoration: none;
+    padding: 2px 4px;
+}
+
+.footnotes {
+    padding-top: 2rem;
+    font-size: 0.8em;
+}
+
+.reversefootnote {
+    visibility: hidden;
 }

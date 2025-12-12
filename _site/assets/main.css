@@ -1,4 +1,5 @@
 /** Reset some basic elements */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
@@ -258,7 +259,9 @@ Image Galleries
 --------------------------------------------------------------*/
 .page_title { font-weight: 600; color: #111; margin: 3px; padding: 3px; }
 
-.portfolio_gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); justify-content: center; align-items: center; row-gap: 75px; padding: 20px; }
+.portfolio_gallery { display: grid; grid-template-columns: auto auto auto; justify-content: center; align-items: center; grid-gap: 80px; padding: 20px; }
+
+.zine_gallery { grid-template-columns: auto auto; }
 
 .portfolio_item { width: 200px; height: 200px; margin: 4px; padding: 4px; }
 
@@ -301,13 +304,20 @@ About Page
 .about_image { width: 30%; margin-left: auto; margin-right: auto; display: block; border: 5px solid #ffc62a; border-radius: 25% 10%; }
 
 /*--------------------------------------------------------------
-Contact Page
+Buy Page
 --------------------------------------------------------------*/
-.contact_cta { text-align: center; padding-bottom: 10px; }
+.content a { text-decoration: underline; text-decoration-color: #ffc62a; }
 
-form { max-width: 600px; text-align: center; margin: 20px auto; }
-form input, form textarea { font-family: sans-serif; border: 0; outline: 0; padding: 1em; border-radius: 8px; display: block; width: 100%; margin-top: 1em; box-shadow: 0 1px 1px rgba(255, 198, 42, 0.1); resize: none; }
-form input:focus, form textarea:focus { box-shadow: 0 0px 2px #ffc62a; }
-form #input-submit { color: white; background: #111; align: center; cursor: pointer; }
-form #input-submit:hover { box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6); }
-form textarea { height: 126px; }
+/*--------------------------------------------------------------
+Photobooth Page
+--------------------------------------------------------------*/
+.photobooth-page h1 { color: #ffc62a; }
+.photobooth-page h3 { color: #111; }
+.photobooth-page .content a { text-decoration: underline; text-decoration-color: #ffc62a; }
+.photobooth-page #airtable-iframe { padding: 1%; }
+
+a[href^="#fn:"] { color: #111; font-size: 0.8em; text-decoration: none; padding: 2px 4px; }
+
+.footnotes { padding-top: 2rem; font-size: 0.8em; }
+
+.reversefootnote { visibility: hidden; }

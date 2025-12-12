@@ -4,6 +4,8 @@ title: Digital Art
 permalink: /art/digital
 display_order: 3
 images:
+
+- { filename: "../img/digital/chirp_cd_sale_poster.png", text: "Printed poster design for CHIRP Radio's CD Blowout Sale, June 2025"}
 - { filename: "../img/digital/waveland.png", text: "Old Signs of Chicago series: Waveland Bowl, digital illustration"}
 - { filename: "../img/digital/orange_garden.png", text: "Old Signs of Chicago series: Orange Garden, digital illustration"}
 - { filename: "../img/digital/both_sides_logo.png", text: "Speculative logo for CHIRP Radio's vinyl listening bar, vector art"}
