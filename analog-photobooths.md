@@ -15,10 +15,20 @@ I write a zine called "A Little Guide to Analog Photo Booths in Chicago". Someti
 </p>
 
 <hr>
+
+### Current Locations:
+
 <div id="airtable-iframe">
-<iframe class="airtable-embed" src="https://airtable.com/embed/appahTamydb18tVGt/shrMvqQQIamB6eoqQ" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/appahTamydb18tVGt/shrNn9XdMb7n1Hv4f?layout=card" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+</div>
+
+### No Longer Has a Booth:
+
+<div id="airtable-iframe">
+<iframe class="airtable-embed" src="https://airtable.com/embed/appahTamydb18tVGt/shrOjCk0sHvHGv6Qb?layout=card" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 </div>
 <hr>
+
 
 ### Frequently Asked Questions
 
