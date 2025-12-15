@@ -1,4 +1,4 @@
-store----
+----
 layout: base
 title: Buy Stuff
 permalink: /buy
