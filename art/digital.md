@@ -5,6 +5,7 @@ permalink: /art/digital
 display_order: 3
 images:
 
+- { filename: "../img/digital/transit_stickers.png", text: "Vector art printed as die-cut vinyl stickers"}
 - { filename: "../img/digital/chirp_cd_sale_poster.png", text: "Printed poster design for CHIRP Radio's CD Blowout Sale, June 2025"}
 - { filename: "../img/digital/waveland.png", text: "Old Signs of Chicago series: Waveland Bowl, digital illustration"}
 - { filename: "../img/digital/orange_garden.png", text: "Old Signs of Chicago series: Orange Garden, digital illustration"}
