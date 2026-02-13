@@ -15,7 +15,6 @@ I sell my art on consignment at a selection of small businesses in Chicago, most
 * [Quimby's Bookstore](https://www.quimbys.com/)
 * [Hey, I Thought of You](https://heyithoughtofyou.com/)
 * [Chicago Comics](https://chicagocomics.com/)
-* [Raygun - Andersonville](https://www.raygunsite.com/collections/chicago)
 * [Uncharted Books](https://www.unchartedbooks.com/)
 * [Alleycat Comics](https://www.alleycatcomics.com/)
 * [Women & Children First](https://womenandchildrenfirst.com/)
@@ -23,6 +22,7 @@ I sell my art on consignment at a selection of small businesses in Chicago, most
 
 #### Stores where I stock zines, handmade prints, stickers, sewn items, and other goodies:
 * [Hey, I Thought of You](https://heyithoughtofyou.com/)
+* [Raygun - Andersonville](https://www.raygunsite.com/collections/chicago)
 
 You can also buy digital items, such as PDFs of my zines, via my [Gumroad Store](https://charliequebecsierra.gumroad.com).
 
