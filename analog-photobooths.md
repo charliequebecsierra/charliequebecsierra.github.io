@@ -13,20 +13,13 @@ include_in_nav: false
 <p>
 I write a zine called "A Little Guide to Analog Photo Booths in Chicago". Sometimes the locations of the booths change before I'm able to print and distribute a new edition. You can find an Airtable view below that I keep up-to-date with the most current location information that I have.
 </p>
-
+<br>
 <hr>
-
-### Current Locations:
-
+<br>
 <div id="airtable-iframe">
-<iframe class="airtable-embed" src="https://airtable.com/embed/appahTamydb18tVGt/shrNn9XdMb7n1Hv4f?layout=card" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/appahTamydb18tVGt/shrxIVVqrzPlYAP5N?viewControls=on" frameborder="0" onmousewheel="" width="100%" height="1033" style="background: transparent; border: 1px solid #ccc;"></iframe>
 </div>
-
-### No Longer Has a Booth:
-
-<div id="airtable-iframe">
-<iframe class="airtable-embed" src="https://airtable.com/embed/appahTamydb18tVGt/shrOjCk0sHvHGv6Qb?layout=card" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-</div>
+<br>
 <hr>
 
 
