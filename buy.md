@@ -11,7 +11,7 @@ include_in_nav: true
 
 I sell my art on consignment at a selection of small businesses in Chicago, mostly on the North side.
 
-#### Stores where I typically stock my zines:
+#### Stores where I typically stock just my zines:
 * [Quimby's Bookstore](https://www.quimbys.com/)
 * [Hey, I Thought of You](https://heyithoughtofyou.com/)
 * [Chicago Comics](https://chicagocomics.com/)
