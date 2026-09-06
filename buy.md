@@ -12,15 +12,15 @@ include_in_nav: true
 I sell my art on consignment at a selection of small businesses in Chicago, mostly on the North side.
 
 #### Stores where I typically stock just my zines:
-* [Quimby's Bookstore](https://www.quimbys.com/)
-* [Hey, I Thought of You](https://heyithoughtofyou.com/)
-* [Chicago Comics](https://chicagocomics.com/)
-* [Uncharted Books](https://www.unchartedbooks.com/)
 * [Alleycat Comics](https://www.alleycatcomics.com/)
-* [Women & Children First](https://womenandchildrenfirst.com/)
+* [Chicago Comics](https://chicagocomics.com/)
 * [Howling Pages](https://www.howlingpages.com/)
+* [Lot'sa](https://www.ilovelotsa.com/)
+* [Quimby's Bookstore](https://www.quimbys.com/)
+* [Uncharted Books](https://www.unchartedbooks.com/)
+* [Women & Children First](https://womenandchildrenfirst.com/)
 
-#### Stores where I stock zines, handmade prints, stickers, sewn items, and other goodies:
+#### Stores where I stock my zines, as well as handmade prints, stickers, sewn items, and other goodies:
 * [Hey, I Thought of You](https://heyithoughtofyou.com/)
 * [Raygun - Andersonville](https://www.raygunsite.com/collections/chicago)
 
